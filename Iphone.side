@@ -1,0 +1,200 @@
+{
+  "id": "3964655a-4251-4f1d-86e7-52c5a139e5e3",
+  "version": "2.0",
+  "name": "Iphone",
+  "url": "https://www.apple.com",
+  "tests": [{
+    "id": "4e4cc8fd-720c-43d4-abd1-012e73979b5f",
+    "name": "ADD_CART",
+    "commands": [{
+      "id": "4098e806-2629-4c8b-8132-0597ad9ee8dc",
+      "comment": "",
+      "command": "open",
+      "target": "/th/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "944be03d-39fe-4abe-96e9-73aa4e3be483",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb843247-6984-43b6-82c3-2064452e21f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iPhone",
+      "targets": [
+        ["linkText=iPhone", "linkText"],
+        ["css=.ac-gn-link-iphone", "css:finder"],
+        ["xpath=//nav[@id='ac-globalnav']/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/th/iphone/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d71f34-e6fc-4942-9d47-32b3c1acfcdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chapternav-item:nth-child(3) .chapternav-icon",
+      "targets": [
+        ["css=.chapternav-item:nth-child(3) .chapternav-icon", "css:finder"],
+        ["xpath=//nav[@id='chapternav']/div/ul/li[3]/a/figure", "xpath:idRelative"],
+        ["xpath=//li[3]/a/figure", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efff678c-5532-449a-962c-95ccc8293ed5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac-ln-button",
+      "targets": [
+        ["css=.ac-ln-button", "css:finder"],
+        ["xpath=//nav[@id='ac-localnav']/div/div[2]/div[2]/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/th/shop/goto/buy_iphone/iphone_12')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e3af5c-174d-499f-9d07-24f3d798f273",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 c7b8f00-e6e3-11eb-918e-79555585dd07_label > .row",
+      "targets": [
+        ["css=#\\39 c7b8f00-e6e3-11eb-918e-79555585dd07_label > .row", "css:finder"],
+        ["xpath=//label[@id='9c7b8f00-e6e3-11eb-918e-79555585dd07_label']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3344d3b-9381-484c-a049-179830b0bf66",
+      "comment": "",
+      "command": "click",
+      "target": "id=9c7bb611-e6e3-11eb-918e-79555585dd07_label",
+      "targets": [
+        ["id=9c7bb611-e6e3-11eb-918e-79555585dd07_label", "id"],
+        ["css=#\\39 c7bb611-e6e3-11eb-918e-79555585dd07_label", "css:finder"],
+        ["xpath=//label[@id='9c7bb611-e6e3-11eb-918e-79555585dd07_label']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[4]/div[2]/div[2]/div[2]/fieldset/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'ดำ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23aa1f11-4f76-4972-a090-10ba88051528",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 c7c2b40-e6e3-11eb-918e-79555585dd07_label small",
+      "targets": [
+        ["css=#\\39 c7c2b40-e6e3-11eb-918e-79555585dd07_label small", "css:finder"],
+        ["xpath=//label[@id='9c7c2b40-e6e3-11eb-918e-79555585dd07_label']/span/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'GB2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5c17c25-8289-4e9f-a8aa-11dee548034d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1337.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d6300a1-0bf1-4c62-b319-0b16f3e61e53",
+      "comment": "",
+      "command": "click",
+      "target": "id=applecareplus_59_noapplecare_label",
+      "targets": [
+        ["id=applecareplus_59_noapplecare_label", "id"],
+        ["css=#applecareplus_59_noapplecare_label", "css:finder"],
+        ["xpath=//label[@id='applecareplus_59_noapplecare_label']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div[4]/div[2]/div[3]/div/div[2]/fieldset/ul/li/label", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/ul/li/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df2613f7-65dd-4e63-a764-7f6f0d3a01a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div[4]/div[2]/div[4]/div/div/div[3]/div[2]/form/div/span/button/span", "xpath:idRelative"],
+        ["xpath=//span/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "655e2039-5264-46c6-8902-f927d658e524",
+      "comment": "",
+      "command": "click",
+      "target": "name=proceed",
+      "targets": [
+        ["name=proceed", "name"],
+        ["css=form > .button", "css:finder"],
+        ["xpath=//button[@name='proceed']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ดูสินค้าในถุง')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7628a3-2768-4c8c-b868-4ac182333b4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-bag",
+      "targets": [
+        ["css=.rs-bag", "css:finder"],
+        ["xpath=//div[@id='bag-container']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ea6073-5180-4ece-ad22-517b844df7b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rs-bag-item:nth-child(2) > .rs-iteminfo",
+      "targets": [
+        ["css=.rs-bag-item:nth-child(2) > .rs-iteminfo", "css:finder"],
+        ["xpath=//div[@id='bag-content']/ol/li[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afeb0897-5ab9-4927-aa13-df32110af16d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=selenium-ide-indicator",
+      "targets": [
+        ["id=selenium-ide-indicator", "id"],
+        ["css=#selenium-ide-indicator", "css:finder"],
+        ["xpath=//iframe[@id='selenium-ide-indicator']", "xpath:attributes"],
+        ["xpath=//body[@id='body-main']/iframe", "xpath:idRelative"],
+        ["xpath=//iframe", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "449c81de-7716-441b-a9c0-50a218e0944b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.rs-bag-item:nth-child(2) > .rs-iteminfo",
+      "targets": [
+        ["css=.rs-bag-item:nth-child(2) > .rs-iteminfo", "css:finder"],
+        ["xpath=//div[@id='bag-content']/ol/li[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "78543b76-c221-475a-b399-2c5579d1f065",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4e4cc8fd-720c-43d4-abd1-012e73979b5f"]
+  }],
+  "urls": ["https://www.apple.com/"],
+  "plugins": []
+}
